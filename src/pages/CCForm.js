@@ -116,6 +116,7 @@ const CCForm = () => {
         <br />
         <button
           type="button"
+          id="validateCCForm"
           data-testid="validateCCForm"
           onClick={() => validateCCForm(cardNumber, name, cardExpiry, cvc, cardType, cardZipCode)}
         >Validate Card</button>
